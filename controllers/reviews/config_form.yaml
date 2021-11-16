@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Review
+
+# Model Form Field configuration
+form: $/sydonios/blog/models/review/fields.yaml
+
+# Model Class name
+modelClass: Sydonios\Blog\Models\Review
+
+# Default redirect location
+defaultRedirect: sydonios/blog/reviews
+
+# Create page
+create:
+    title: Create Review
+    redirect: sydonios/blog/reviews/update/:id
+    redirectClose: sydonios/blog/reviews
+
+# Update page
+update:
+    title: Edit Review
+    redirect: sydonios/blog/reviews
+    redirectClose: sydonios/blog/reviews
+
+# Preview page
+preview:
+    title: Preview Review

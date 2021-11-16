@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Article
+
+# Model Form Field configuration
+form: $/sydonios/blog/models/article/fields.yaml
+
+# Model Class name
+modelClass: Sydonios\Blog\Models\Article
+
+# Default redirect location
+defaultRedirect: sydonios/blog/articles
+
+# Create page
+create:
+    title: Create Article
+    redirect: sydonios/blog/articles/update/:id
+    redirectClose: sydonios/blog/articles
+
+# Update page
+update:
+    title: Edit Article
+    redirect: sydonios/blog/articles
+    redirectClose: sydonios/blog/articles
+
+# Preview page
+preview:
+    title: Preview Article

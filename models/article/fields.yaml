@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    article_section:
+        label: Блок статьи
+        type: section
+    article_photo:
+        label: Превью статьи
+        type: fileupload
+        comment: Разрешение:1323x882px, максимальный вес 4 Мб
+        mode: image
+        imageHeight: 200
+        imageWidth: 300
+    article_title:
+        label: Заголовок
+    article_description:
+        label: Текст
+        type: richeditor
+    _notificateUsers:
+        label: Сообщить о новой статье
+        type: checkbox
+

@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    concept_title:
+        label: Заголовок
+    concept_description:
+        label: Текст
+    sort_order:
+        label: sort_order

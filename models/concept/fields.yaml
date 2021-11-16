@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    concept_block:
+        label: Текстовые блоки концепции
+        type: section
+    concept_title:
+        label: Заголовок
+    concept_description:
+        label: Текст
+        type: richeditor
+    concept_photo:
+        label: Фотография
+        type: fileupload
+        comment: Разрешение:648x648px, максимальный вес 2 Мб
+        mode: image
+        imageHeight: 300
+        imageWidth: 300

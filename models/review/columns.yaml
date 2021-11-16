@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    review_title:
+        label: Заголовок отзыва
+    review_user:
+        label: Имя пользователя
+    review_href:
+        label: Ссылка на социальную сеть
+    review_description:
+        label: Текст отзыва
+    review_hide:
+        label: Не показывать?
+    sort_order:
+        label: sort_order

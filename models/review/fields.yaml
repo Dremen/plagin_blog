@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    review_title:
+        label: Заголовок отзыва
+    review_name:
+        label: Имя пользователя
+    review_href:
+        label: Ссылка на социальную сеть
+    review_description:
+        label: Текст отзыва
+        type: richeditor
+    review_hide:
+        label: Не показывать?
+        type: checkbox
+    review_photo:
+        label: Фото
+        type: fileupload
+        comment: Разрешение:240x240px, максимальный вес 2 Мб
+        mode: image
+        imageHeight: 240
+        imageWidth: 240

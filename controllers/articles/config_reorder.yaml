@@ -1,0 +1,17 @@
+# ===================================
+#  Reorder Behavior Config
+# ===================================
+
+# Reorder Title
+title: Reorder Categories
+
+# Attribute name
+nameFrom: concept_title
+
+# Model Class name
+modelClass: Sydonios\Blog\Models\Article
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: reorder_toolbar

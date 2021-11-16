@@ -1,0 +1,15 @@
+1.0.1:
+  - Run table migrations
+  - create_articles_table.php
+1.0.2:
+  - Create table Concepts
+  - create_concepts_table.php
+1.0.3:
+  - Add is slug column to articles table
+  - add_slug_column_articles_table.php
+1.0.4:
+  - Create table Reviews
+  - create_reviews_table.php
+1.0.5:
+  - Update review description
+  - update_reviews_table/review_description.php

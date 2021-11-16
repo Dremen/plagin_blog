@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Concept
+
+# Model Form Field configuration
+form: $/sydonios/blog/models/concept/fields.yaml
+
+# Model Class name
+modelClass: Sydonios\Blog\Models\Concept
+
+# Default redirect location
+defaultRedirect: sydonios/blog/concepts
+
+# Create page
+create:
+    title: Create Concept
+    redirect: sydonios/blog/concepts/update/:id
+    redirectClose: sydonios/blog/concepts
+
+# Update page
+update:
+    title: Edit Concept
+    redirect: sydonios/blog/concepts
+    redirectClose: sydonios/blog/concepts
+
+# Preview page
+preview:
+    title: Preview Concept
